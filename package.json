@@ -1,0 +1,30 @@
+{
+  "name": "openclawtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gateway": "openclaw gateway --force",
+    "dashboard": "openclaw dashboard",
+    "health": "openclaw health",
+    "start": "node scripts/start-openclaw.js",
+    "init": "node scripts/init-openclaw.js",
+    "setup": "openclaw configure --section model"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoRicci/openclawtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrunoRicci/openclawtest/issues"
+  },
+  "homepage": "https://github.com/BrunoRicci/openclawtest#readme",
+  "devDependencies": {
+    "openclaw": "^2026.2.21-2"   
+  }
+}

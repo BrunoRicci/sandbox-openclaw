@@ -1,0 +1,24 @@
+{
+    "name": "OpenClaw Workspace",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+    "postCreateCommand": "npm install && node scripts/init-openclaw.js",
+    "remoteEnv": {
+        "OPENCLAW_STATE_DIR": "${containerWorkspaceFolder}/.openclaw-state",
+        "OPENCLAW_CONFIG_PATH": "${containerWorkspaceFolder}/.openclaw-config.json"
+    },
+    "forwardPorts": [18789],
+    "portsAttributes": {
+        "18789": {
+            "label": "OpenClaw Dashboard",
+            "onAutoForward": "notify"
+        }
+    },
+    "shutdownAction": "stopContainer",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [],
+            "openFiles": ["INSTRUCTIONS.md"]
+        }
+    }
+}
