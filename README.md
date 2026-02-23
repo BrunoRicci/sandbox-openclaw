@@ -12,7 +12,7 @@ This repository provides:
 - **Easy model provider setup** — interactive wizard for OpenAI, Anthropic, Bedrock, etc.
 - **Clean state management** — all credentials encrypted, no secrets in git
 
-Perfect for testing agents, building demos, or deploying to production.
+Perfect for testing agents, building demos, or --if you dare-- deploying to production.
 
 ---
 
@@ -21,6 +21,10 @@ Perfect for testing agents, building demos, or deploying to production.
 ### 1. Open in GitHub Codespaces
 
 Click **Code → Codespaces → Create codespace on main**
+
+>**NOTE:**: While codespaces is a free feature, Github requires a **payment method** associated with your account in case you exceed usage limits.
+
+_DYOR!!_
 
 The container will:
 - Install dependencies
@@ -34,7 +38,7 @@ The container will:
 npm run gateway
 ```
 
-Keep this terminal open (or open a new one), then:
+**Keep this terminal open** (or open a new one), then:
 
 ### 3. Launch Dashboard
 
@@ -50,16 +54,47 @@ This:
 
 **You're done — no ENTER keys, no manual approvals**
 
+**NOTE:**  If some error appears in the web interface (OpenClaw Control) follow this simple steps:
+
+Open `.openclaw-config.json` file -> copy the value for **"token"** node.
+
+![alt text](assets/image-6.png)
+
+Paste the token into `Gateway Token` input field inside **Overview** menu. Click **Connect**.
+
+![alt text](assets/image-7.png)
+
+**Done!** You should see "Status OK" in the dashboard.
+
+---
+
 ### 4. Connect a Model Provider
 
 ```bash
 npm run setup
 ```
 
-Interactive wizard:
-- Choose provider: OpenAI, Anthropic, Azure, Bedrock, Ollama, GitHub Copilot
-- Enter API key
-- Done
+![alt text](assets/image.png)
+
+Select your model provider: i.e. OpenAI
+
+![alt text](assets/image-2.png)
+
+Copy URL and paste into browser -> Sign in using your credentials
+
+![alt text](assets/image-5.png)
+
+Copy the URL address that appears in the URL bar _(don't worry if the page is blank or 404)_
+
+![alt text](assets/image-3.png)
+
+Paste it in the terminal
+
+![alt text](assets/image-4.png)
+
+### Done!
+
+**NOTE:** The next time you open this codespace, you only need to follow steps **2** and **3**. Model provider and device pairing is saved.
 
 ---
 
