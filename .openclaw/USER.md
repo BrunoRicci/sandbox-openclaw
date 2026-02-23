@@ -1,17 +1,13 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Name:** Bruno
+- **What to call them:** Bruno
+- **Pronouns:** _(not set)_
+- **Timezone:** _(not set)_
+- **Notes:** Prefers direct, honest communication and raw truth.
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- Likes concise, organized information.
+- Prefers few emojis, only for structure.
+- Values clarity over politeness fluff.
