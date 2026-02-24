@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
-- **Name:** Bruno
-- **What to call them:** Bruno
+- **Name:** _(not set)_
+- **What to call them:** _(not set)_
 - **Pronouns:** _(not set)_
 - **Timezone:** _(not set)_
 - **Notes:** Prefers direct, honest communication and raw truth.
